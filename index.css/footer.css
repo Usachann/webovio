@@ -73,7 +73,6 @@
 }
 
 
-
 .footer__item {
     font-weight: 400;
     font-size: 16px;
@@ -108,9 +107,6 @@
     gap: 11px;
 }
 
-.socual__item {
-
-}
 
 .socual__link {
     display: block;
