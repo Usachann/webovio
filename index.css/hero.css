@@ -1,7 +1,7 @@
 /* Добавил стиль для header в файле header.css, сделав его абсолютным, чтобы картинка прижалась к топу.  */
 .hero {
     padding-top: 189px;
-    padding-bottom: 30px;
+    padding-bottom: 210px;
     background-image: url("/img/hero__pic.jpg");
     background-position: center;
     background-size: cover;
@@ -13,17 +13,28 @@
 
 }
 .hero__subtitle {
+    /* Чтобы задать отступы, делаем inline-block */
+    display: inline-block;
+    margin-bottom: 22px;
     font-size: 14px;
     line-height: 21px;
 }
 
 .hero__title {
+    margin: 0;
+    margin-bottom: 24px;
     font-weight: 700;
     font-size: 60px;
     line-height: 74px;
 }
 
 .hero__description {
+    margin: 0;
+    margin-bottom: 45px;
     font-size: 16px;
     line-height: 26px;
+}
+
+.hero__link {
+    color: #ffd723;
 }
