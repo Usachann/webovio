@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1140px;
+    /* Добавил падинги, а потом крайние просуммировал с msx-width и указал 1140, вместо 1110 на макете. 
+    Типа лайфхак. */
+    padding: 0 15px;
+    margin: 0 auto;
+}

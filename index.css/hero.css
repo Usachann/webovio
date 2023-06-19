@@ -1,0 +1,8 @@
+/* Добавил стиль для header в файле header.css, сделав его абсолютным, чтобы картинка прижалась к топу.  */
+.hero {
+    padding-top: 120px;
+    background-image: url("/img/hero__pic.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
