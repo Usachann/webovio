@@ -1,8 +1,29 @@
 /* Добавил стиль для header в файле header.css, сделав его абсолютным, чтобы картинка прижалась к топу.  */
 .hero {
-    padding-top: 120px;
+    padding-top: 189px;
+    padding-bottom: 30px;
     background-image: url("/img/hero__pic.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.hero-content {
+    max-width: 616px;
+    color: #fff;
+
+}
+.hero__subtitle {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+}
+
+.hero__description {
+    font-size: 16px;
+    line-height: 26px;
 }

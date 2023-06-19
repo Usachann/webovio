@@ -3,11 +3,13 @@
     left: 0;
     right: 0;
     width: 100%;
+    padding: 24px 0;
 }
 
 .header__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .burder {

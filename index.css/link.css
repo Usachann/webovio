@@ -1,0 +1,27 @@
+.link {
+    /* Чтобы задать пробелы после киночки, используем свойсово    
+    text-indent: 10px, но оно работает только с displaq: inline-block, как и line-height; */
+    display: inline-flex;
+    align-items: center;
+    /* text-indent: 10px; */
+    border-bottom: 1px solid currentColor;
+    line-height: 1px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #d4d6d4;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.hero__svg {
+    fill: currentColor;
+    margin-right: 5px;
+    width: 13px;
+    height: 13px;
+    transform: rotate(90deg);
+}
+
+.link:hover {
+    color: #ffd723;
+}
